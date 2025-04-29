@@ -14,6 +14,10 @@
 #include "esp_system.h"
 #include "esp_log.h"
 
+#define ARRAY_SIZE 10
+int exampleData;
+char exampleArray[ARRAY_SIZE];
+
 void app_main(void)
 {
     printf("Hello world!\n");
